@@ -1,0 +1,12 @@
+[System.Serializable]
+public class QuestionList
+{
+    public int id_question;
+    public string p_text;
+    public int id_area;
+    public bool camera;
+    public bool btn_na;
+    public string picture; //Checar porque si no se tiene un valor inicial sería un NULL.
+    public int q_order;
+    public int id_category;
+}
